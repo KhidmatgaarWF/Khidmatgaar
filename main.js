@@ -1,13 +1,28 @@
-console.log("Helping Hands website loaded");
+//console.log("Helping Hands website loaded");
 
 // NAVBAR TOGGLE
-const toggleBtn = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+//const toggleBtn = document.querySelector(".menu-toggle");
+//const navLinks = document.querySelector(".nav-links");
 
-if (toggleBtn && navLinks) {
-  toggleBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-}
+//if (toggleBtn && navLinks) {
+  //toggleBtn.addEventListener("click", () => {
+    //navLinks.classList.toggle("active");
+  //});
+//}
+
+
+console.log("Helping Hands website loaded");
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (toggleBtn && navLinks) {
+    toggleBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  }
+});
+
 
 
